@@ -1,0 +1,62 @@
+extends layout.pug
+
+block content
+  table.templateContainer(align='center', border='0', cellpadding='0', cellspacing='0', width='100%')
+    tr
+      td.bodyContainer(valign='top')
+        table.mcnTextBlock(border='0', cellpadding='0', cellspacing='0', width='100%', style='min-width:100%;')
+          tbody.mcnTextBlockOuter
+            tr
+              td.mcnTextBlockInner(valign='top', style='padding-top:9px;')
+                //if mso
+                    table(align='left', border='0', cellspacing='0', cellpadding='0', width='100%', style='width:100%;')
+                        tr
+                //if mso
+                    td(valign='top', width='600', style='width:600px;')
+                table.mcnTextContentContainer(align='left', border='0', cellpadding='0', cellspacing='0', style='max-width:100%; min-width:100%;', width='100%')
+                  tbody
+                    tr
+                      td.mcnTextContent(valign='top', style='padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;')
+                        h2(style='text-align: center;') Nurture meaningful employee relationships
+                        p(style='font-size: 18px !important; text-align: justify;')
+                          | Hello! Please visit to tracking your feedback.
+                //if mso
+                //if mso
+        table.mcnDividerBlock(border='0', cellpadding='0', cellspacing='0', width='100%', style='min-width:100%;')
+          tbody.mcnDividerBlockOuter
+            tr
+              td.mcnDividerBlockInner(style='min-width: 100%; padding: 18px 18px 0px;')
+                table.mcnDividerContent(border='0', cellpadding='0', cellspacing='0', width='100%', style='min-width:100%;')
+                  tbody
+                    tr
+                      td
+                        span
+                //
+                    <td class="mcnDividerBlockInner" style="padding: 18px;">
+                    <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+        table.mcnButtonBlock(border='0', cellpadding='0', cellspacing='0', width='100%', style='min-width:100%;')
+          tbody.mcnButtonBlockOuter
+            tr
+              td.mcnButtonBlockInner(style='padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;', valign='top', align='center')
+                table.mcnButtonContentContainer(border='0', cellpadding='0', cellspacing='0', style='border-collapse: separate !important;border-radius: 3px;background-color: #00ADD8;')
+                  tbody
+                    tr
+                      td.mcnButtonContent(align='center', valign='middle', style='font-family: Helvetica; font-size: 18px; padding: 18px;')
+                        a.mcnButton(title='Click here to see your feedback link', href=url, target='_self', style='font-weight: bold;letter-spacing: -0.5px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;') Click here to see your feedback link
+        table.mcnTextBlock(border='0', cellpadding='0', cellspacing='0', width='100%', style='min-width:100%;')
+          tbody.mcnTextBlockOuter
+            tr
+              td.mcnTextBlockInner(valign='top', style='padding-top:9px;')
+                //if mso
+                    table(align='left', border='0', cellspacing='0', cellpadding='0', width='100%', style='width:100%;')
+                        tr
+                //if mso
+                    td(valign='top', width='600', style='width:600px;')
+                table.mcnTextContentContainer(align='left', border='0', cellpadding='0', cellspacing='0', style='max-width:100%; min-width:100%;', width='100%')
+                  tbody
+                    tr
+                      td.mcnTextContent(valign='top', style='padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;')
+                        div(style='text-align: center;')
+                          a(href=url, target='_blank') #{url}
+                //if mso
+                //if mso
